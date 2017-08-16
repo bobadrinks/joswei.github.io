@@ -42,9 +42,8 @@ pre {
   background:#D3D3D3;
 }
 
-img {
-  max-width: 100%;
-  width: auto;
+.resizingImg {
+  width: 60%;
   height: auto;
   /*width: auto\9; /* ie8 */
 }
