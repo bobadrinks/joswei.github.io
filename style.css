@@ -10,3 +10,34 @@ body{
 
 h1,h2,h3{line-height:1.2}
 h2{font-weight:normal}
+
+p {
+  background-color: #F8F8F8;
+}
+
+ul {
+  background-color: #F8F8F8;
+}
+
+pre {
+  font-family: Times, monospace, serif;
+  font-size:22px
+  background-color: #F8F8F8;
+}
+
+.box {
+  width:100px;
+  height:100px;
+}
+
+.h1gray {
+  background:#484848;
+}
+
+.h2gray {
+  background:#A9A9A9;
+}
+
+.h3gray {
+  background:#D3D3D3;
+}
