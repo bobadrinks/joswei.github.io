@@ -1,15 +1,21 @@
-body{
+ody{
   background-color: #EEEEEE;
   margin:30px auto;
   max-width:750px;
   line-height:1.6;
+  font-family: Palatino, monospace, serif;
   font-size:16px;
   color:#444;
   padding:0 10px
 }
 
-h1,h2,h3{line-height:1.2}
-h2{font-weight:normal}
+h1,h2,h3{
+  line-height:1.2;
+  font-family: Palatino, monospace, serif;
+}
+h2{
+  font-weight:normal;
+}
 
 p {
   background-color: #F8F8F8;
@@ -20,8 +26,8 @@ ul {
 }
 
 pre {
-  font-family: Times, monospace, serif;
-  font-size:22px
+  font-family: Palatino, monospace, serif;
+  font-size:22px;
   background-color: #F8F8F8;
 }
 
@@ -46,4 +52,8 @@ pre {
   width: 60%;
   height: auto;
   /*width: auto\9; /* ie8 */
+}
+
+ul {
+  font-family: Palatino, monospace, serif;
 }
