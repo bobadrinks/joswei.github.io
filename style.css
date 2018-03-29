@@ -58,3 +58,19 @@ ul {
   font-family: Palatino, monospace, serif;
   line-height:1.6;
 }
+
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+div#nav{
+  text-align: center;
+}
+div#nav ul{
+  display: inline-block;
+}
