@@ -67,14 +67,16 @@ ul {
 }
 
 .navbar {
-  position: fixed;
-  width: auto;
+  position: sticky;
+  width: 50%;
   overflow: hidden;
 }
 
 div#nav{
   text-align: center;
+  float: right;
 }
 div#nav ul{
   display: inline-block;
+  float: right;
 }
