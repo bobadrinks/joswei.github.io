@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--Comment-->
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -40,7 +39,7 @@ development, web dev, art, design, student, intern" name="keywords">
 <div class="center-block" id="about">
 <div class="span12">
 <header>
-<h2>Jocelyn Wei</h2>
+<h2 id="name_hdr">Jocelyn Wei</h2>
 <br><img src="joswei.github.io/doityourwei.png" class="image" alt="doityourwei"
 height=auto width=100% />
 <h2>University of California, San Diego</h2>
@@ -49,16 +48,33 @@ height=auto width=100% />
     Tutor at UCSD Computer Science Department (CSE 30: Computer Organization and Systems Programming)
   </ul>
   <ul><strong>Education</strong><br>
-    Currently studying Computer Science <br>
+    Pursuing undergraduate degree in Computer Science <br>
     Graduating in June 2020 <br>
+    GPA 3.78<br>
   </ul>
 </div>
 </div>
 
 <div class="center-block" id="portfolio">
   <div class="span12">
-    <h2>Portfolio</h2>
-    <ul><strong><a href="https://devpost.com/software/cat-and-house">Cat and House</a></strong> (Apartment-themed Android Game)
+    <h2 id>Portfolio</h2>
+        <ul><strong><span style="font-size: 20px;">Fuzz-Testing Tool for LLVM Machine Code Layer</span><br>Qualcomm CDMA Technologies: Interim Engineering Internship (Summer 2018)</strong>
+      <ul>
+        <li>Developed structured fuzzing tool to test the LLVM Assembler using C++ and Google’s Protocol Buffers Language.
+        <li>Designed and delivered Python script to categorize failures and bugs in the assembler and disassembler by comparing against the GNU toolchain.
+        <li>Established framework for easy future development and extensibility.
+        <li>Discovered using this tool:
+          <ul>
+            <li>4 RISC-V disassembler/decoder bugs.
+            <li>4 GNU assembler and disassembler bugs.
+            <li>10 RISC-V specific assembler parser and encoder bugs.
+            <li>Unimplemented RISC-V pseudoinstructions.
+            <li>1 target-independent assembler parser bug.
+          </ul>
+          <li>Submitted an <a href="joswei.github.io/llvm-mc-fuzzer.pdf" style="font-size: inherit">accepted poster</a> to LLVM Developers' Meeting 2018.
+      </ul>
+    </ul>
+    <ul><strong><a href="https://devpost.com/software/cat-and-house">Cat and House</a></strong> &nbsp; <br><strong>Apartment-themed mobile game for Android (April 8, 2017)</strong>
       <br><img src="joswei.github.io/catandhouse.png" class="image" alt="cat"
       height="108" width="108" />
       <ul>
@@ -69,7 +85,7 @@ height=auto width=100% />
         <li>Implemented shop feature
       </ul>
     </ul>
-    <ul><strong><a href="https://github.com/joswei/medicalmissions">Medical Missions</a> </strong>(Android Game)
+    <ul><strong><a href="https://github.com/joswei/medicalmissions">Medical Missions</a> </strong><br><strong>Mobile game for Android (Spring 2017)</strong>
       <ul>
         <li>Developed using Unity
         <li>Created to present research project in Warren Writing class
@@ -88,22 +104,18 @@ height=auto width=100% />
         <br>
       </ul>
     </ul>
-    <ul><strong>Internship with Scripps Institute of Oceanography</strong>
+    <ul><strong><a href="https://aquarium.ucsd.edu/blog/summer-engineering-birch-aquarium/">Summer Engineering Experience</a><br>Internship with the Scripps Institution of Oceanography (Summer 2017)</strong>
       <ul>
-        <ul>
-          <li>Summer Engineering Experience 2017 at the Envision Studio
-          <li>Arduino/Raspberry Pi: an early prototype using a light sensor
+          <li>Built an exhibit to demonstrate Scripps research on the Arctic's changing albedo (reflectivity).
+          <li>Established livestreaming of data, graphed on a locally hosted webpage.
+            <br><img src="joswei.github.io/plotly.gif" class="resizingImg"
+            alt="plotly" height="308" width="512" />Web Development with Plotly (Offline Mode)
+        <li>Wrote Bash and Python scripts on Raspberry Pi.
             <br><img src="joswei.github.io/OLEDFeatherM0Demo.gif"
             class="resizingImg" alt="feather"
-            height="308" width="512" />
-          <li>Web Development with Plotly (Offline Mode)
-            <br><img src="joswei.github.io/plotly.gif" class="resizingImg"
-            alt="plotly" height="308" width="512" />
-        </ul>
+            height="308" width="512" />Arduino/Raspberry Pi: an early prototype using a light sensor
+        <li>Used XBee for wireless communication between Arduino boards and Raspberry Pi.
       </ul>
-      <br>
-      <br>
-    </ul>
   </div>
 </div>
 

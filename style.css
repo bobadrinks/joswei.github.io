@@ -12,10 +12,17 @@ body{
 h1,h2,h3{
   line-height:1.2;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 50px;
 }
 h2{
   font-weight:normal;
+}
+
+h2::before{
+  display:block;
+  margin-top:-50px;
+  height:55px;
+  visibility:hidden;
+  content:""
 }
 
 p {
@@ -31,6 +38,10 @@ pre {
   font-family: Arial, Helvetica, sans-serif;
   font-size:22px;
   background-color: #F8F8F8;
+}
+
+a {
+  font-size: 20px;
 }
 
 .box {
@@ -65,11 +76,15 @@ ul {
 #navbar {
   left:0px;
 }
-#navbar li{
+#navbar li {
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size:16px;
+}
+
+#name_hdr {
+  padding-top: 50px;
 }
