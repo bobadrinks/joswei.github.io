@@ -32,6 +32,11 @@ p {
 ul {
   width: auto;
   background-color: #F8F8F8;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height:1.6;
 }
 
 pre {
@@ -69,13 +74,15 @@ a {
   /*width: auto\9; /* ie8 */
 }
 
-ul {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height:1.6;
+ul ul{
+  padding-top:1px;
+  padding-bottom:1px;
 }
+
 #navbar {
   left:0px;
 }
+
 #navbar li {
   padding-right: 20px;
   padding-left: 20px;
