@@ -12,6 +12,7 @@ body{
 h1,h2,h3{
   line-height:1.2;
   font-family: Palatino, monospace, serif;
+  padding-top: 50px;
 }
 h2{
   font-weight:normal;
@@ -35,6 +36,8 @@ pre {
 .box {
   width:100px;
   height:100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .h1gray {
@@ -59,24 +62,14 @@ ul {
   font-family: Palatino, monospace, serif;
   line-height:1.6;
 }
-
-.nav {
-  position: fixed;
-  width: auto;
-  overflow: hidden;
+#navbar {
+  left:0px;
 }
-
-.navbar {
-  position: sticky;
-  width: 50%;
-  overflow: hidden;
-}
-
-div#nav{
-  text-align: center;
-  float: right;
-}
-div#nav ul{
-  display: inline-block;
-  float: right;
+#navbar li{
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: Palatino, monospace, serif;
+  font-size:16px;
 }
