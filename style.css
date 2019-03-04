@@ -46,13 +46,18 @@ pre {
   background-color: #F8F8F8;
 }
 
+a < img {
+  text-decoration: none;
+  font-size: 1px;
+}
+
 a {
   font-size: 20px;
 }
 
-a < img {
-  text-decoration: none;
-  font-size: 1px;
+.resizingImg {
+  max-width: 60%;
+  max-height: 40vh;
 }
 
 .box {
@@ -72,12 +77,6 @@ a < img {
 
 .h3gray {
   background:#D3D3D3;
-}
-
-.resizingImg {
-  width: 80%;
-  height: auto;
-  /*width: auto\9; /* ie8 */
 }
 
 ul ul{
