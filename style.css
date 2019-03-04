@@ -50,6 +50,11 @@ a {
   font-size: 20px;
 }
 
+a < img {
+  text-decoration: none;
+  font-size: 1px;
+}
+
 .box {
   width:100px;
   height:100px;
@@ -70,7 +75,7 @@ a {
 }
 
 .resizingImg {
-  width: 60%;
+  width: 80%;
   height: auto;
   /*width: auto\9; /* ie8 */
 }
